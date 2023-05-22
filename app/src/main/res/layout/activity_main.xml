@@ -53,6 +53,7 @@
         android:id="@+id/btnSumar"
         android:layout_width="112dp"
         android:layout_height="64dp"
+        android:onClick="irSuma"
         android:text="SUMAR"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
