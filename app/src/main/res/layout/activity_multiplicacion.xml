@@ -70,7 +70,7 @@
         app:layout_constraintVertical_bias="0.541" />
 
     <EditText
-        android:id="@+id/editTextText5"
+        android:id="@+id/result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -83,7 +83,7 @@
         app:layout_constraintVertical_bias="0.534" />
 
     <EditText
-        android:id="@+id/editTextText2"
+        android:id="@+id/num1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -96,7 +96,7 @@
         app:layout_constraintVertical_bias="0.313" />
 
     <EditText
-        android:id="@+id/editTextText4"
+        android:id="@+id/num2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -112,6 +112,7 @@
         android:id="@+id/multi"
         android:layout_width="114dp"
         android:layout_height="60dp"
+        android:onClick="multiplicar"
         android:text="Calcular"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -124,6 +125,7 @@
         android:id="@+id/atras"
         android:layout_width="114dp"
         android:layout_height="60dp"
+        android:onClick="regresarMenu"
         android:text="Atras"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

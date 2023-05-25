@@ -22,12 +22,12 @@ public class MainActivity extends AppCompatActivity {
         Intent intent=new Intent(this,RestaActivity.class);
         view.getContext().startActivity(intent);
     }
-    /*public void irMultiplicacion(View view){
+    public void irMultiplicacion(View view){
         Intent intent=new Intent(this,MultiplicacionActivity.class);
         view.getContext().startActivity(intent);
     }
     public void irDivision(View view){
         Intent intent=new Intent(this,DivisionActivity.class);
         view.getContext().startActivity(intent);
-    }*/
+    }
 }
