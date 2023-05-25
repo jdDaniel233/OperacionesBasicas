@@ -51,28 +51,54 @@
 
     <Button
         android:id="@+id/btnSumar"
-        android:layout_width="112dp"
-        android:layout_height="64dp"
+        android:layout_width="147dp"
+        android:layout_height="63dp"
         android:onClick="irSuma"
         android:text="SUMAR"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.58" />
+        app:layout_constraintVertical_bias="0.541" />
 
     <Button
         android:id="@+id/btnRestar"
-        android:layout_width="112dp"
-        android:layout_height="64dp"
+        android:layout_width="147dp"
+        android:layout_height="63dp"
         android:onClick="irResta"
         android:text="RESTAR"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.526"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.71" />
+        app:layout_constraintVertical_bias="0.662" />
+
+    <Button
+        android:id="@+id/btnRestar2"
+        android:layout_width="147dp"
+        android:layout_height="63dp"
+        android:onClick="irResta"
+        android:text="MULTIPLICAR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.782" />
+
+    <Button
+        android:id="@+id/btnRestar3"
+        android:layout_width="147dp"
+        android:layout_height="63dp"
+        android:onClick="irResta"
+        android:text="DIVIDIR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.921" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
