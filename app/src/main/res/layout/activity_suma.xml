@@ -6,13 +6,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-    android:onClick="regresarMenu"
     tools:context=".SumaActivity">
 
     <TextView
         android:id="@+id/txtETitutloS"
-        android:layout_width="113dp"
-        android:layout_height="52dp"
+        android:layout_width="129dp"
+        android:layout_height="71dp"
         android:text="SUMA"
         android:textColor="#ED1404"
         android:textSize="40sp"
@@ -37,8 +36,8 @@
 
     <TextView
         android:id="@+id/txtETitutloS3"
-        android:layout_width="153dp"
-        android:layout_height="37dp"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
         android:text="Ingrese Numero"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -110,9 +109,24 @@
         android:text="Calcular"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.293"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.792" />
+        app:layout_constraintVertical_bias="0.814" />
+
+    <Button
+        android:id="@+id/Microfono"
+        android:layout_width="115dp"
+        android:layout_height="55dp"
+        android:background="#4CAF50"
+        android:backgroundTint="#009688"
+        android:text="Activar Microfono"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.723"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.822" />
 
     <Button
         android:id="@+id/btnAtras"
